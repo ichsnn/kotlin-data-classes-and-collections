@@ -24,7 +24,7 @@ fun operations() {
   println(firstOrNullNumber) // null
 
   // first(), last()
-  val moreThan10 = numberList.first { it > 10 }
+  // val moreThan10 = numberList.first { it > 10 }
   // println(moreThan10) // error  Exception in thread "main" java.util.NoSuchElementException: Collection contains no element matching the predicate.
 
   // sum()
