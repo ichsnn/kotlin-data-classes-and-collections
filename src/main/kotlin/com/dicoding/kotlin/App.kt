@@ -1,3 +1,4 @@
+import com.dicoding.kotlin.collections.list
 import com.dicoding.kotlin.dataclass.mainDataClass
 
 /*
@@ -10,4 +11,8 @@ data class User(val name: String, val age: Int)
 
 fun main() {
   mainDataClass()
+  println()
+
+  list()
+  println()
 }
