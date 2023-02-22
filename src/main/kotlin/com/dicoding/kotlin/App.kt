@@ -1,4 +1,6 @@
 import com.dicoding.kotlin.collections.list
+import com.dicoding.kotlin.collections.map
+import com.dicoding.kotlin.collections.operations
 import com.dicoding.kotlin.collections.set
 import com.dicoding.kotlin.dataclass.mainDataClass
 
@@ -18,5 +20,11 @@ fun main() {
   println()
 
   set()
+  println()
+
+  map()
+  println()
+
+  operations()
   println()
 }
