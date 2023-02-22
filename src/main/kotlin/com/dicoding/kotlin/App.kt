@@ -1,3 +1,5 @@
+import com.dicoding.kotlin.dataclass.mainDataClass
+
 /*
 data class User(val name: String, val age: Int)
 
@@ -7,5 +9,5 @@ data class User(val name: String, val age: Int)
 */
 
 fun main() {
-
+  mainDataClass()
 }
