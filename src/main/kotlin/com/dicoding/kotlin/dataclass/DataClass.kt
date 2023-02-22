@@ -25,7 +25,11 @@ class User(val name: String, val age: Int) {
   }
 }
 
-data class DataUser(val name: String, val age: Int)
+data class DataUser(val name: String, val age: Int) {
+  fun intro() {
+    println("My name is $name, I am $age years old")
+  }
+}
 
 fun mainDataClass() {
   val user = User("ichsan", 20)
@@ -55,4 +59,11 @@ fun mainDataClass() {
 
   val dataUser5 = dataUser3.copy(age = 20)
   println(dataUser5)
+
+  // destructing declartions
+  val dataUser6 = DataUser("ichsnn", 21)
+  val name = dataUser6.component1()
+  val age = dataUser6.component2()
+  println("My name is $name, I am $age years old") // My name is ichsnn, I am 21 years old
+  dataUser6.intro()
 }
