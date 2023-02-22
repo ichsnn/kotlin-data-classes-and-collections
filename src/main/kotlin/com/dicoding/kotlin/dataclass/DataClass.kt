@@ -48,4 +48,11 @@ fun mainDataClass() {
 
   println(user1.equals(user2)) // true
   println(user1.equals(user3)) // false
+
+  // copy
+  val dataUser4 = dataUser3.copy()
+  println(dataUser3.equals(dataUser4)) // true
+
+  val dataUser5 = dataUser3.copy(age = 20)
+  println(dataUser5)
 }
